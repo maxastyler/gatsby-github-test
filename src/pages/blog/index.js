@@ -17,7 +17,7 @@ export default BlogEntries
 export const query = graphql`
 query {
   allFile(
-    filter: {sourceInstanceName: {eq: "blog"}}
+    filter: {sourceInstanceName: {eq: "blog"}, extension: {eq: "mdx"}}
     sort: {fields: childMdx___frontmatter___date, order: DESC}
   ) {
     nodes {

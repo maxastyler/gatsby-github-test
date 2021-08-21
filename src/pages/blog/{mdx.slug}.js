@@ -1,10 +1,13 @@
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
 
 
 const BlogPost = ({ data }) => (
     <div>
+        <Link to="/blog">
+            blog
+        </Link>
         <h1>
             {data.mdx.frontmatter.title}
         </h1>
