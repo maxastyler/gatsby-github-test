@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-another-page-js-ce57fd28fc537dd5fc23.js","mappings":"kJAQA,UANqB,kBACjB","sources":["webpack://gatsby-github-test/./src/pages/another_page.js"],"sourcesContent":["import React from \"react\"\n\nconst AnotherThing = () => (\n    <div>\n        Another thing :)\n    </div>\n)\n\nexport default AnotherThing\n"],"names":[],"sourceRoot":""}

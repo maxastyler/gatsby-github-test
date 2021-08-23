@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-index-js",
+    "path": "/blog/",
+    "result": {"data":{"allFile":{"nodes":[{"childMdx":{"slug":"blog-page/hi","frontmatter":{"title":"This is a thing","date":"2021-08-21"}}},{"childMdx":{"slug":"another/yo","frontmatter":{"title":"Interesting title","date":"2021-05-02"}}}]}},"pageContext":{}},
+    "staticQueryHashes": []}
