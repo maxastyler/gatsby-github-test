@@ -9,6 +9,10 @@ const IndexPage = () => {
         <Link to="/blog">
             blog
         </Link>
+        <br/>
+        <Link to="/todo">
+            todo
+        </Link>
     </main>
   )
 }
